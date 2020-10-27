@@ -1,0 +1,132 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    margin: 0 15% 0 15%;
+}
+.logo-box{
+    margin: 3% 0 0 0;
+}
+.box-mnue{
+    margin: 0 15% 0 0 ;
+}
+.list-mnue{
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    margin: 15% 0% 0 0;
+    z-index: 3;
+    position: relative;
+}
+.item-mnue{
+    margin: 0% 20% 0% 0%;
+}
+.item-mnue:hover{
+    text-decoration: underline;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "main-contant ilstruiton";
+    margin: 0 15% 0 15%;
+  }
+  .main-contant { grid-area: main-contant; }
+  .ilstruiton { grid-area: ilstruiton; }
+
+
+  .hader{
+      display: flex;
+      margin: 20% 0 0 0;
+      flex-direction: row;
+  }
+
+  .new{
+      height: 25px;
+      border-radius: 20px;
+      background-color: black;
+      color: white;
+      padding: 0.5%;
+      margin: 2% 0 0 0 ;
+      padding: 0.5%;
+      
+      
+  }
+  .text{
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 3%;
+    font-weight: 200;
+    
+  }
+  .side-title{
+      margin: 2% 0 0 3%;
+      font-weight: 200;
+  }
+  .title{
+      font-size: 4rem;
+      margin: 3% 0 0 0 ;
+  }
+  .main{
+      font-size: 1.5rem;
+      margin: 6% 35% 0 0;
+      font-weight: 200;
+  }
+  .pic{
+      position: absolute;
+      top: 200px;
+      z-index: 2;
+  }
+
+  .box-bg{
+      position: absolute;
+      background-color: aquamarine;
+      width: 1000px;
+      height: 800px;
+      border-radius: 50px;
+      bottom: 380px;
+      z-index: 1;
+
+  }
+
+  .bottom{
+      display: flex;
+      flex-direction: row;
+      margin: 3% 0 0 0 ;
+  }
+  .btn-box{
+      display: flex;
+      flex-direction: row;
+      
+
+  }
+  .btn{
+    margin: 0;
+    border-radius: 5px;
+    height: 50px;
+    width: 180px;
+    margin: 0 6% 0 0 ;
+    border-style: none;
+    border-radius: 10px;
+    color:white;
+    background-color: turquoise;
+
+  }
+  .btn:active{
+      transform: scale(0.95);
+  }
+
+  .previwe{
+      margin: 4% 0 0 0;
+      font-size: 1rem;
+      font-weight: 200;
+      width: 150px;
+  }
